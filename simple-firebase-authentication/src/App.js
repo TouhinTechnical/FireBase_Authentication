@@ -9,7 +9,6 @@ function App() {
   // user data load
   const [user, setUser] = useState([])
   const provider = new GoogleAuthProvider();
-
   const providerGit = new GithubAuthProvider();
   
   // Google sign in
